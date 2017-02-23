@@ -1,0 +1,25 @@
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    background: #DCDFE1;
+    text-align: center;
+}
+        
+h1 {
+    color: #2F363D;
+}
+        
+p {
+    color: #535F6B;
+}
+        
+ul {
+    color: #778899;
+}
+        
+.color {
+    color: blue;
+}
+        
+#newcolorred {
+    color: red;
+}

@@ -6,6 +6,10 @@ body{
 
 nav {
     background: #ffffff;
+    position: fixed;
+    width 100%;
+    top: 0;
+    right: 0;
 }
 
 h1 {
@@ -80,4 +84,38 @@ input[type="text"]{
   width: 50%;
 }
 
-input[type="radio"]
+div.container{
+  padding-top: 40px;
+}
+
+.dropdown{
+  position: relative;
+}
+
+.dropdown li{
+  display: list-item;
+}
+
+.dropdown > ul{
+  position: absolute;
+  top: 10px;
+  left: 0;
+  height: 0;
+  overflow: hidden;
+  padding: 0;
+  transition: all 0.3s ease;
+}
+
+.dropdown:hover > ul{
+  height: 100px;
+  padding: 10px 0px 0px 0px;
+}
+
+@media screen and (max-width: 414px){
+  input[type="text"],
+  input[type="email"],
+  input[type="password"]{
+    width: 100%;
+  }
+
+}

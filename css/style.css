@@ -119,7 +119,22 @@ div.container{
   }
 
 }
-        
+
 #newcolorred {
     color: red;
+}
+
+.projects{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projects > section{
+  width: 90%;
+  max-width: 200px;
+  height: 300px;
+  background: pink;
+  margin: 0;
+  padding: 0;
 }

@@ -9,11 +9,11 @@
 </head>
 <body>
 
-    <form action="form-responses/new" method="POST">
+    <form action="https://formspree.io/jruessler@gmail.com" method="POST">
 
     <input type="text" name="firstname" value="First Name" size="100" autofocus><br />
     <input type="text" name="lastname" value="Last Name" size="100"><br /><br />
-    <input type="email" name="userEmail" placeholder="your.email@example.com">
+    <input type="email" placeholder="your.email@example.com" name="_replyto">
 
     <label><br /><br />What's this message about?<br />
       <input type="radio" name="subject" value="professional" checked><span>I'd like to hire you!</span><br />
@@ -43,7 +43,7 @@
     <br />
 
     <textarea name="user_message" rows="8" cols="40"></textarea>
-    <input type="submit">
+    <input type="submit" value="Send">
   </form>
 
 </body>
